@@ -312,15 +312,8 @@
     .burger {
         display: flex;
     }
-    .acheter-maintenant {
-        margin-left: 35px;
-     } 
-     
-
-     .articles-items {
-        margin-left: 5px;
-     }
-
+    
+    
      form input{
         width: 300px;
      }
