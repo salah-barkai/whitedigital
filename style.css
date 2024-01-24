@@ -59,7 +59,9 @@
         padding: 40px;
         height: 200px;
         background: darkblue;
-        margin: 0 0px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     h2{
@@ -80,11 +82,8 @@
         border: 1px solid white;
         color: white;
         font-size: 18px;
-        margin:20px;
-        display: inline-block;
         margin-top: 30px;
-        margin-left: 40%;
-        width: 350px;
+        width: 300px;
         cursor: pointer;
     }
 
@@ -110,11 +109,12 @@
     }
 
     .articles-items {
-        display: flex;
-        margin-left: 100px;
+        align-items: center;
+        justify-content: center;
         padding: 40px;
-        height: auto;
-       flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5px;
 
     }
 
@@ -316,8 +316,11 @@
     
      form input{
         width: 300px;
+        padding: 5 40px;
      }
      form textarea{
         width: 300px;
+        padding: 5 40px;
+
      }
     }
