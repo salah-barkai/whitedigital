@@ -1,0 +1,330 @@
+ *{
+        padding: 0;
+        margin: 0;}
+
+     body {
+        margin: 0px;
+        padding: 0px;
+     }
+     header {
+        display: flex;
+        margin: 0;
+        padding: 20px;
+        background: whitesmoke;
+        border-radius: 5px;
+        border:1px solid black;
+        justify-content: space-between;
+        cursor: pointer;
+     }
+     h1{
+        margin: 0;
+        font-weight: bold;
+        font-size: 18px;
+     }
+     nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+     }
+     ul{
+        display: flex;
+        align-items: center;
+        list-style: none;
+     }
+     li {
+        margin: 0 10px;
+     }
+     li:hover{
+            background: black;
+            border-radius: 10px;
+            color: white;
+            cursor: pointer;
+            padding: 5px;
+     }
+     .burger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+     .trois {
+            width: 25px;
+            height: 3px;
+            background: black;
+            margin: 3px 0;
+        }
+
+    .welcome {
+        padding: 40px;
+        height: 200px;
+        background: darkblue;
+        margin: 0 0px;
+    }
+
+    h2{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: bold;
+        margin: 10 20px;
+        margin-top: 40px;
+    }
+    .acheter-maintenant{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        font-size: 18px;
+        margin:20px;
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: 40%;
+        width: 350px;
+        cursor: pointer;
+    }
+
+    .acheter-maintenant:hover{
+        background: white;
+        color: black;
+        border:1px solid black;
+    }
+
+    .articles {
+        margin: 5px;
+        padding: 40px;
+    }
+
+    h3{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        border:1px solid black;
+        padding: 10px;
+    }
+
+    .articles-items {
+        display: flex;
+        margin-left: 100px;
+        padding: 40px;
+        height: auto;
+       flex-wrap: wrap;
+
+    }
+
+    .items {
+        border-radius: 10px;
+        border:1px solid black;
+        background: whitesmoke;
+        padding: 10px;
+        margin: 15px;
+        width: 300px;
+
+    }
+
+    .items img {
+        width: 300px;
+        margin: 0 0 0px;
+        box-sizing: border-box;
+    }
+
+    .items span{
+        background: orangered;
+        padding: 5px;
+        margin-top:20px; 
+        border-radius: 0 0 10px;
+    }
+
+    .items p {
+        margin: 5px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .price {
+        color: orangered;
+    }
+
+    .buy {
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        background: darkblue;
+        border: 1px solid black;
+        font-size: 18px;
+        margin:5px;
+        display: inline-block;
+        width: 300px;
+        cursor: pointer;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .buy:hover {
+        background: black;
+        color: white;
+    }
+
+    .funny  {
+        margin:5px;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    h4{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        border:1px solid black;
+        padding: 10px;
+    }
+
+    .design-items {
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5px;
+    }
+
+    .design-items img{
+      display: flex;
+      width: 300px;
+      padding: 20px;
+    }
+
+    .explore{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        background: darkblue;
+        border: 1px solid black;
+        font-size: 18px;
+        cursor: pointer;
+        color: white;
+        border-radius: 10px;
+        width: 300px;
+
+    }
+
+    .explore:hover{
+        background: black;
+        color: white;
+    }
+
+    .Contact-form {
+        margin: 5px;
+        padding: 40px;
+    }
+
+    h5{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        border:1px solid black;
+        padding: 10px;        
+    }
+
+    form {
+        margin: 10px;
+        border-radius: 10px;
+        border:1px solid black;
+        padding: 30px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    form input{
+        padding: 10px;
+        margin: 5px;
+        outline: none
+        border:1px solid black; 
+        width: 500px; 
+        display: inline-block;
+    }
+
+    textarea {
+        width: 500px;
+        padding: 10px;
+        height: 100px;
+    }
+
+    .submit {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        background: darkblue;
+        border: 1px solid black;
+        font-size: 18px;
+        cursor: pointer;
+        color: white;
+        border-radius: 10px;
+        width: 300px;
+        margin: 10px;
+    }
+
+
+
+
+     @media only screen and (max-width: 590px)  {
+       nav {
+        display: none;
+        flex-direction: row;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background: whitesmoke;
+        padding: 10px;
+    }
+    nav.show {
+        display: flex;
+        flex-direction: row; /* Ajout de cette ligne pour afficher en flex row */
+    }
+
+    ul{
+        display: inline-block;
+        padding: 10;
+        margin-bottom: 80%;
+    }
+    li {
+        margin: 10px;
+    }
+
+    .burger {
+        display: flex;
+    }
+    .acheter-maintenant {
+        margin-left: 35px;
+     } 
+     
+
+     .articles-items {
+        margin-left: 5px;
+     }
+
+     form input{
+        width: 300px;
+     }
+     form textarea{
+        width: 300px;
+     }
+    }
