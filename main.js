@@ -15,7 +15,7 @@ function gotohome(){
 	var btn_home = document.querySelector('.home');
 
 	btn_home.addEventListener("click",() => {
-       window.location.href= 'navbarstyle.html';
+       window.location.href= 'index.html';
 	})
 };
 
